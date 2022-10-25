@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Social</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header -->
+<header>
+    <h1 class="heading">SERVICIO SOCIAL</h1>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Inicio</a></li>
+            <li><a href="#about">Información</a></li>
+            <li><a href="#doc">Requisitos</a></li>
+            <li><a href="#rep">Reportes</a></li>
+            <li><a href="#contact">contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- header ends -->
+
+<!-- home starts   -->
+<section class="home" id="home">
+    <div class="content">     
+        <h1>SISTEMA DE AGUAS DE LA CIUDAD DE MÉXICO</h1>
+        <p> Libera tu servicio social de una forma sencilla y con horarios accesibles</p>      
+        <p>NO TE QUEDES FUERA</p>
+    </div>
+
+    <div class="image">
+        <img src="img/img0.jpeg" alt="SACMEX">
+    </div>
+</section>
+<!-- home ends -->
+
+
+<!-- about start  -->
+<section class="about" id="about">
+    <div class="image">
+        <img class="ab" src="img/img2.jpeg" alt="SACMEX2">
+    </div>
+
+    <div class="content">
+        <h1>Servico Social</h1>
+        <p>para prestar tu servicio en sacmex debes comunicarte con la Dirección de administracion de capital humano,
+            el cual lleva el control del servicio social y practicas profesionales. 
+        </p>
+        <p> Al concluir tu servicio recibiras un apoyo economico</p>
+    </div>
+
+</section>
+<!-- about ends -->
+
+
+<!-- requisitos starts  -->
+<section class="doc" id="doc">
+    <h1>Requisitos</h1>
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Carta Compromiso</h3>
+            <p>se genera al realizar tu registro.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Carta de Presentación </h3>
+            <p>brindado por tu escuela.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Acta de nacimiento</h3>
+            <p> solo copia NO ORIGINAL.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>CURP</h3>
+            <p> Actualizado.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Copia Identificación oficial</h3>
+            <h3>Copia credencial escolar</h3>
+            <p>INE SOLO SI ES MAYOR DE EDAD.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Comprobante de Domicilio   </h3>
+            <p>No mayor a 3 meses.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- requisitos ends -->
+
+
+<!-- Reportes -->
+<section class="rep" id="rep">
+    <h3>Reportes</h3>
+    <p>entregar en tiempo y forma</p>
+    <div class="container1">
+       
+        <div class="con">
+            <h3 class="title">Reporte Mensual</h3>
+            <img class="ter" src="img/reporte.jpg" alt="">
+        </div>
+
+        <div class="con">
+            <h3 class="title">Carta Termino</h3>
+            <img  class="ter"src="img/termino.png" alt="">
+                 
+        </div>
+    </div>
+</section>
+<!-- Reportes edn -->
+
+
+<!-- contact starts  -->
+<section class="contact" id="contact">
+    
+    <form action="">
+        <input type="text" class="box" placeholder="name">
+        <input type="email" class="box" placeholder="your email">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <input type="submit" class="btn" value="send message">
+    </form>
+    
+    <div class="content">
+        <h3>contactanos</h3>
+        <p>IC. MA.SANDRA PÉREZ REYES
+            JEFA DE OFICINA DE SERVICIO SOCIAL Y
+             PRÁCTICAS PROFESIONALES</p>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>IZAZAGA Num. 89 Col. CENTRO
+        CUAUHTÉMOC, CIUDAD DE MÉXICO. C.P. 06080
+        </div>
+        <div class="icons">
+            <i class="fas fa-globe"></i> servicio Social
+        </div>
+        <div class="icons">
+            <i class="fas fa-phone"></i> +5130444 ext.0206
+        </div>
+    
+    </div>
+
+</section>
+<!-- contact ends -->
+
+
+<!-- contact ends -->
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>SISTEMA DE AGUAS DE LA CIUDAD DE MÉXICO</h3>
+            <h3>Dirección </h3>          
+            <p> Calle Nezahualcoyotl</p>
+            <p>Colonia Centro, Alcaldía Cuauhtémoc C.P. 06080, Ciudad de México</p>
+        </div>
+        <div class="box">
+            <h3>Redes Sociales </h3>
+            <div class="share">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--jslink  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
